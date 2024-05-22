@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news_c10_maadi/shared/theme.dart';
+import 'package:news_c10_maadi/ui/home/details_screen.dart';
 import 'package:news_c10_maadi/ui/home/home_screen.dart';
 
 void main() {
@@ -17,9 +18,9 @@ class MyApp extends StatelessWidget {
       initialRoute: HomeScreen.routename,
       debugShowCheckedModeBanner: false,
       routes: {
-        HomeScreen.routename:(_)=>HomeScreen()
+        HomeScreen.routename: (_) => HomeScreen(),
+        DetailsScreen.routeName: (_) => DetailsScreen()
       },
     );
   }
 }
-
