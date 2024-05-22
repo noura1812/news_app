@@ -1,4 +1,4 @@
-# news_c10_maadi
+# news_app
 
 A new Flutter project.
 
